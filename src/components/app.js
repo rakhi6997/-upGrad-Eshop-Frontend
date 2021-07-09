@@ -16,13 +16,13 @@ import "react-toastify/dist/ReactToastify.css";
 
 function App(props) {
   return (
-    <>
+    
       <Switch>
         <Route path="/login" component={Login} />
         <Route path="/signup" component={SignUp} />
         <Redirect to="/login" />
       </Switch>
-    </>
+    
   );
 }
 
